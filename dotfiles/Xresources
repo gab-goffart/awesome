@@ -1,0 +1,101 @@
+! ██╗░░██╗██████╗░███████╗███████╗░██████╗░██╗░░░██╗██████╗░░██████╗███████╗███████╗
+! ╚██╗██╔╝██╔══██╗██╔════╝██╔════╝██╔═══██╗██║░░░██║██╔══██╗██╔════╝██╔════╝██╔════╝
+! ░╚███╔╝░██████╔╝█████╗░░███████╗██║░░░██║██║░░░██║██████╔╝██║░░░░░█████╗░░███████╗
+! ░██╔██╗░██╔══██╗██╔══╝░░╚════██║██║░░░██║██║░░░██║██╔══██╗██║░░░░░██╔══╝░░╚════██║
+! ██╔╝░██╗██║░░██║███████╗███████║╚██████╔╝╚██████╔╝██║░░██║╚██████╗███████╗███████║
+! ╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚══════╝░╚═════╝░░╚═════╝░╚═╝░░╚═╝░╚═════╝╚══════╝╚══════╝
+!
+! -----------------------------------
+!Xft.dpi: 102
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
+
+xcursor.theme:            Vanilla-DMZ
+xscreensaver.fade:   false
+xscreensaver.unfade: false
+! ===== urxvt =====
+! clean up urxvt, add keybinds
+URxvt.intensityStyles: false
+URxvt.scrollBar: false
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger: C-Up
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+! font
+URxvt*font: xft: Hack Nerd Font Mono:style=regular:size=12:antialias=true:hinting=true,
+
+! terminal padding
+URxvt.internalBorder: 25
+
+! uncomment for transparent terminal if you are ready to be made fun of in #rice
+!URxvt.transparent:	true
+!URxvt.shading:		50
+
+! transparency
+URxvt.depth: 32
+URxvt.background: [80]#404552
+
+! =================
+
+*background:	#404552
+*foreground:	#EEFFFF
+*cursorColor:	#EEFFFF
+*color0:	#404552
+*color1:	#cc575d
+*color2:	#2679db
+*color3:	#b3bdcb
+*color4:	#5294e2
+*color5:	#404552
+*color6:	#b3bdcb
+*color7:	#E1E5EA
+*color8:	#2a303b
+*color9:	#a3464a
+*color10:	#75a9e8
+*color11:	#CAD1DB
+*color12:	#97bfee
+*color13:	#686d79
+*color14:	#383c4a
+*color15:	#ffffff
+!*color16:	#2A335A
+
+! for 256 color stuff
+*.color24:  #076678
+*.color66:  #427b58
+*.color88:  #9d0006
+*.color96:  #8f3f71
+*.color100: #79740e
+*.color108: #8ec07c
+*.color109: #83a598
+*.color130: #af3a03
+*.color136: #b57614
+*.color142: #b8bb26
+*.color167: #fb4934
+*.color175: #d3869b
+*.color208: #fe8019
+*.color214: #fabd2f
+*.color223: #ebdbb2
+*.color228: #f4e8ba
+*.color229: #fdf4c1
+*.color230: #ffffc8
+*.color234: #1d2021
+*.color235: #404552
+*.color236: #32302f
+*.color237: #3c3836
+*.color239: #504945
+*.color241: #665c54
+*.color243: #7c6f64
+*.color244: #928374
+*.color245: #928374
+*.color246: #a89984
+*.color248: #bdae93
+*.color250: #d5c4a1
