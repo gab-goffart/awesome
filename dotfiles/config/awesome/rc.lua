@@ -10,7 +10,7 @@
 --------------------------------------------------------------------------------
 
 local theme_collection = {
-    "manta", -- 1 --
+    "arc-dark", -- 1 --
     "cesious"
     --"whatever",     -- 2 --
     -- Add more themes here

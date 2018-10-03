@@ -28,7 +28,6 @@ local screen_height = awful.screen.focused().geometry.height
 
 theme.wallpaper = os.getenv("HOME") .. "/.config/awesome/themes/" .. theme_name .. "/wall.jpg"
 theme.font          = "Hack Nerd Font 12"
---theme.font          = "sans-serif 12"
 
 local accent_color = xrdb.color14
 local focused_color = xrdb.color14
@@ -318,7 +317,7 @@ theme.desktop_mode_text_max = ""
 -- Minimal tasklist widget variables
 theme.minimal_tasklist_visible_clients_color = focused_color
 theme.minimal_tasklist_visible_clients_text = "  "
-theme.minimal_tasklist_hidden_clients_color = xrdb.color8
+theme.minimal_tasklist_hidden_clients_color = xrdb.color4
 theme.minimal_tasklist_hidden_clients_text = "  "
 
 

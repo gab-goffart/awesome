@@ -1,16 +1,17 @@
 #IMPORTANT
 
-You'll need some packages to make it look as mine. 
+You'll need some packages to make it look as mine. These are all the links to the githubs of each element.
+Please note that it is very likely that you can find these packages in your distribution's repositories. 
 
-1. Arc-dark GTK theme
-2. Hack Nerd Font
-3. Rofi
-4. compton
+* [Arc-dark GTK theme](https://github.com/horst3180/arc-theme)
+* [Nerd Font](https://github.com/ryanoasis/nerd-fonts)(I use Hack)
+* [Rofi](https://github.com/DaveDavenport/rofi)
+* [compton](https://github.com/chjj/compton)
 
 
-#Methods to reproduce
-1. copy the contents of config into your ~/.config folder
-2. copy the content of Xresources into your ~/.Xresources (rename ~/.Xresources to .Xresources.old and move this one as .Xresources)
-3. <optional> the screenlayout folder is actually if you need some config for xrandr, feel free to not use it if you don't need to.
+##Methods to reproduce
+* copy the contents of config into your ~/.config folder
+* copy the content of Xresources into your ~/.Xresources (rename ~/.Xresources to .Xresources.old and move this one as .Xresources)
+* _optional_ the screenlayout folder is actually if you need some config for xrandr, feel free to not use it if you don't need to.
 
 Install all of these, and you should be in for a treat
